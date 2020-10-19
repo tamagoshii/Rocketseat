@@ -1,0 +1,39 @@
+0 info it worked if it ends with ok
+1 verbose cli [
+1 verbose cli   '/home/tamagoshii/.nvm/versions/node/v12.18.4/bin/node',
+1 verbose cli   '/home/tamagoshii/.nvm/versions/node/v12.18.4/bin/npm',
+1 verbose cli   'run',
+1 verbose cli   'typeorm'
+1 verbose cli ]
+2 info using npm@6.14.6
+3 info using node@v12.18.4
+4 verbose run-script [ 'pretypeorm', 'typeorm', 'posttypeorm' ]
+5 info lifecycle backend@1.0.0~pretypeorm: backend@1.0.0
+6 info lifecycle backend@1.0.0~typeorm: backend@1.0.0
+7 verbose lifecycle backend@1.0.0~typeorm: unsafe-perm in lifecycle true
+8 verbose lifecycle backend@1.0.0~typeorm: PATH: /home/tamagoshii/.nvm/versions/node/v12.18.4/lib/node_modules/npm/node_modules/npm-lifecycle/node-gyp-bin:/home/tamagoshii/Documentos/Rocketseat/backend/node_modules/.bin:/home/tamagoshii/.vscode-server/bin/58bb7b2331731bf72587010e943852e13e6fd3cf/bin:/home/tamagoshii/.nvm/versions/node/v12.18.4/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/mnt/c/Program Files/WindowsApps/CanonicalGroupLimited.Ubuntu20.04onWindows_2004.2020.812.0_x64__79rhkp1fndgsc:/mnt/c/Program Files (x86)/Common Files/Oracle/Java/javapath:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Dev/Microsoft VS Code/bin:/mnt/c/Users/Estela Martins/AppData/Local/Microsoft/WindowsApps:/snap/bin
+9 verbose lifecycle backend@1.0.0~typeorm: CWD: /home/tamagoshii/Documentos/Rocketseat/backend
+10 silly lifecycle backend@1.0.0~typeorm: Args: [ '-c', 'ts-node-dev ./node_modules/typeorm/cli.js' ]
+11 silly lifecycle backend@1.0.0~typeorm: Returned: code: 1  signal: null
+12 info lifecycle backend@1.0.0~typeorm: Failed to exec typeorm script
+13 verbose stack Error: backend@1.0.0 typeorm: `ts-node-dev ./node_modules/typeorm/cli.js`
+13 verbose stack Exit status 1
+13 verbose stack     at EventEmitter.<anonymous> (/home/tamagoshii/.nvm/versions/node/v12.18.4/lib/node_modules/npm/node_modules/npm-lifecycle/index.js:332:16)
+13 verbose stack     at EventEmitter.emit (events.js:315:20)
+13 verbose stack     at ChildProcess.<anonymous> (/home/tamagoshii/.nvm/versions/node/v12.18.4/lib/node_modules/npm/node_modules/npm-lifecycle/lib/spawn.js:55:14)
+13 verbose stack     at ChildProcess.emit (events.js:315:20)
+13 verbose stack     at maybeClose (internal/child_process.js:1021:16)
+13 verbose stack     at Process.ChildProcess._handle.onexit (internal/child_process.js:286:5)
+14 verbose pkgid backend@1.0.0
+15 verbose cwd /home/tamagoshii/Documentos/Rocketseat/backend
+16 verbose Linux 4.19.128-microsoft-standard
+17 verbose argv "/home/tamagoshii/.nvm/versions/node/v12.18.4/bin/node" "/home/tamagoshii/.nvm/versions/node/v12.18.4/bin/npm" "run" "typeorm"
+18 verbose node v12.18.4
+19 verbose npm  v6.14.6
+20 error code ELIFECYCLE
+21 error errno 1
+22 error backend@1.0.0 typeorm: `ts-node-dev ./node_modules/typeorm/cli.js`
+22 error Exit status 1
+23 error Failed at the backend@1.0.0 typeorm script.
+23 error This is probably not a problem with npm. There is likely additional logging output above.
+24 verbose exit [ 1, true ]
