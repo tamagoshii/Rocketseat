@@ -14,3 +14,6 @@
 <h2>Banco de dados</h2>
 <p>npm i typeorm sqlite3</p>
 <p><span>SQLite3: </span></p>
+<p>nnpm run typeorm <p>
+<p>npm run typeorm migration:create -n create_orphanages</p>
+<p>npm run npm run typeorm migration:run <p>
